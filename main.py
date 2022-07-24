@@ -28,7 +28,7 @@ window.title("Ukraine Russian War News")
 button = Button(window,text="Load",font=("BELL MT",30),command=shownews,width=100)
 button.pack()
 
-label = Label(window,font=("Arial",12),justify=CENTER)
+label = Label(window,font=("Arial",12),justify=CENTER) #Use LEFT to organze better
 label.pack(pady=20)
 
 window.mainloop()
